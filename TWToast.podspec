@@ -35,9 +35,9 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   #=> 组件ARC
    s.requires_arc = true
-   s.frameworks = 'UIKit'
+   s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'MBProgressHUD', '~> 1.1.0'
    s.dependency 'SVProgressHUD', '~> 2.1.2'
-   s.dependency 'Toast-Swift', '~> 3.0.1'
+   s.dependency 'Toast-Swift',   '~> 3.0.1'
 
 end

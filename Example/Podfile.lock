@@ -1,15 +1,30 @@
 PODS:
-  - TWToast (0.1.0)
+  - MBProgressHUD (1.1.0)
+  - SVProgressHUD (2.1.2)
+  - Toast-Swift (3.0.1)
+  - TWToast (0.1.0):
+    - MBProgressHUD (~> 1.1.0)
+    - SVProgressHUD (~> 2.1.2)
+    - Toast-Swift (~> 3.0.1)
 
 DEPENDENCIES:
   - TWToast (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SVProgressHUD
+    - Toast-Swift
 
 EXTERNAL SOURCES:
   TWToast:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TWToast: e63485ee00bee1c2687226b5e1a63ed748029e60
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  TWToast: 5ef5f93ef03b7f195faaa6e9b5c36e709a22ac65
 
 PODFILE CHECKSUM: cb1f3a34b2458e42fc2659e2480d64332b480911
 

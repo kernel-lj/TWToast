@@ -10,9 +10,10 @@ import Foundation
 //import SVProgressHUD
 //import MBProgressHUD
 
+import  Toast_Swift
 //public let AppWindow = ((UIApplication.shared.delegate as? AppDelegate)?.window)!
 
-class TWToast {
+public class TWToast {
     /**
      在windows上 短暂的文字提示
      
@@ -29,9 +30,9 @@ class TWToast {
      @param string:  要展示的提示文字
      
      */
-//    static func toast(showInAView aView:UIView, with someString:String ) {
-//        aView.makeToast(someString)
-//    }
+    static func toast(showInAView aView:UIView, with someString:String ) {
+        aView.makeToast(someString)
+    }
     
     /**
      用SVProgressHUD 展示转圈圈
