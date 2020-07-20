@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TWToast_Example' do
+  pod 'TWToast', :path => '../'
+
+  target 'TWToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "TWToast",
+  "version": "0.1.0",
+  "summary": "A short description of TWToast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1364054455@qq.com/TWToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1364054455@qq.com": "liutianliang@doumi.com"
+  },
+  "source": {
+    "git": "https://github.com/1364054455@qq.com/TWToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TWToast/Classes/**/*"
+}
